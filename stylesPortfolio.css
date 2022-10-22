@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: powderblue;
+}
+header{
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.name{
+    font-family: 'Brush Script MT','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, cursive;
+    font-size: 4.5em;
+    font-size: xx-large;
+    font-style: italic;
+    flex-grow: initial;
+}
+nav{
+    width: 100%;
+    height: 20px;
+    background: white;
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0,0,0, 2);
+}
+.top-nav{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.top-nav a{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.top-nav a:hover{
+    color: white;
+    background: rgb(68, 8, 8);
+    border-radius: 8px;
+    font-size: 20px;
+}
+.top-nav a.active{
+    color: white;
+    background: rgb(68, 8, 8);
+    border-radius: 8px;
+}
+.Who-I-am{
+    color:rgb(25, 48, 3);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20em;
+    margin-bottom: 20em;
+}
+.Who-I-am >div{
+    flex-basis: 50%;
+    display: block;
+}
+.Who-I-am .det1{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.Who-I-am .I-am{
+    line-height: 1em;
+    font-size: 30px;
+    color: black;
+}
+.name1{
+    font-size: 50px;
+    padding: 10px;
+}
+.Who-I-am .det{
+    line-height: 2em;
+    font-size: 30px;
+    color: black;
+    padding: 2em;
+}
+.Who-I-am img{
+    border-radius: 50%;
+    size: 500em;
+}
+.About{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+    text-align: center;
+    height: 750px;
+}
+.About >div{
+    flex-basis: 50%;
+}
+.About .About-Me{
+    font-size: 60px;
+    padding: 20px 40px 60px 40px;
+    float: right;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 50px;
+    color: rgb(126, 84, 22);
+}
+.About .Elaborate{
+    font-size: 30px;
+    padding: 0 40px 50px 40px;
+    float: left;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(92, 8, 117);
+}
+.About .Elaborate p{
+    padding-top: 20px;
+}
+.Education{
+    color:rgb(37, 75, 2);
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5em;
+    height: 50em;
+}
+.Education h1{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(126, 84, 22);
+}
+.Education .Edu_det{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 650px;
+    margin-top: 10px;
+}
+.Education .Edu_det >div{
+    flex-basis: 50%;
+}
+.Education .Edu_det .MCA{
+    font-size: 30px;
+    padding: 50px 40px 60px 40px;
+    float: left;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 50px;
+    height: 300px;
+    margin-left: 90px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(99, 238, 34, 0.904);
+}
+.Education .Edu_det .BSC{
+    font-size: 30px;
+    padding: 50px 40px 60px 40px;
+    float: left;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 50px;
+    height: 300px;
+    margin-left: 90px;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+}
+.skills{
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.skills h1{
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(126, 84, 22);
+    margin-bottom: 1em;
+}
+.skill_name{
+    color:rgb(25, 48, 3);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17em;
+    margin-left: 90px;
+}
+.skill_name >div{
+    flex-basis: 50%;
+}
+.skills .lang{
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    font-size: 60px;
+    padding: 0px 40px 20px 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 50px;
+    color: rgb(19, 9, 105);
+    margin-top: 20px;
+}
+.skills .lang img{
+    float: inline-start;
+    padding-top: 15px;
+}
+.skills .qualities{
+    width: 100%;
+    justify-content: space-between;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(77, 2, 87);
+    margin-top: 40px;
+    margin-left: 10em;
+}
+.skills .qualities img{
+    float: inline-start;
+    padding-top: 15px;
+}
+.certificates{
+    color:rgb(37, 75, 2);
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 12em;
+}
+.certificates h1{
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.certificates p{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 1em;
+    margin-left: 5em;
+}
+.certificates a:hover{
+    color: darkred;
+    font-size: 45px;
+}
+.projects{
+    color:rgb(37, 75, 2);
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 12em;
+    margin-bottom: 30em;
+}
+.projects h1{
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.projects >div{
+    width: 100%;
+    justify-content: space-between;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(77, 2, 87);
+    margin-top: 40px;
+    margin-left: 5em;
+}
+.projects a:hover{
+    color: darkred;
+    font-size: 45px;
+}
